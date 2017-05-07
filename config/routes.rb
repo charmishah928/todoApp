@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
-  
     root 'application#hello'
     get 'list/:id' => 'list#show'
     get 'list/1' => 'list#first'
     get 'list/2' => 'list#second'
     get 'list/index'
+  end
+  
     
     
   # The priority is based upon order of creation: first created -> highest priority.
@@ -61,4 +62,4 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
+
