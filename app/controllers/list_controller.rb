@@ -11,6 +11,8 @@ class ListController < ApplicationController
   end
   
   def show
+    @id = params ['id']
+    
   end
   
   
