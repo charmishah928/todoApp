@@ -10,4 +10,8 @@ class ListController < ApplicationController
   def second
   end
   
+  def show
+  end
+  
+  
 end
