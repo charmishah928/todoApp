@@ -9,9 +9,9 @@ class ListController < ApplicationController
   
   def second
   end
-  
+
   def show
-    @id = params ['id'] 
+    @id = params ['id']
   end
   
   
