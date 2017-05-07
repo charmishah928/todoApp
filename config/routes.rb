@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-    
     root 'application#hello'
     get 'list/:id' => 'list#show'
     get 'list/1' => 'list#first'
